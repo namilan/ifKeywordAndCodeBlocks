@@ -12,7 +12,7 @@ public class Main {
 			System.out.println(" This was executed");
 		}
 		
-		
+		// code blocks are optional. however, if you have one line, you should use code blocks. 
 		
 	}
 
