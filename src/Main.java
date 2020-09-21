@@ -23,19 +23,22 @@ public class Main {
 		
 		if (gameOver) {
 			int finalScore = score + ( levelCompleted * bonus );
+			finalScore += 1000; 
 			System.out.println("Your final score was " + finalScore);
-		}
-		
-		if (secondScore) {
-			int finalScoreSecond = secondScore1 + ( secondScoreLevel * secondBonus );
-			System.out.println("Second place score was " + finalScoreSecond);
 		}
 		
 		// print out a second score on the screen with the following
 		// score set to 10000
 		// levelCompleted set to 8
 		// bonus set to 200
-		// but make sure the firsdt printout above sill displays as well. 
+		// but make sure the first printout above sill displays as well. 
+		
+		if (secondScore) {
+			int finalScoreSecond = secondScore1 + ( secondScoreLevel * secondBonus );
+			System.out.println("Your final score was " + finalScoreSecond);
+		}
+		
+
 		
 		
 	}
